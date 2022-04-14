@@ -1864,7 +1864,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #37553f;
+			box-shadow: 0 0 0 2px #A18167;
 		}
 
 	select {
@@ -2083,15 +2083,15 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #A18167;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #A18167;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #A18167;
 		}
 	
 	center {
@@ -2614,7 +2614,7 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #A18167;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2901,23 +2901,23 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
-				color: #a6e0db !important;
+				color: #A18167 !important;
 			}
 
 			.wrapper.style1 :-moz-placeholder {
-				color: #a6e0db !important;
+				color: #A18167 !important;
 			}
 
 			.wrapper.style1 ::-moz-placeholder {
-				color: #a6e0db !important;
+				color: #A18167!important;
 			}
 
 			.wrapper.style1 :-ms-input-placeholder {
-				color: #a6e0db !important;
+				color: #A18167 !important;
 			}
 
 			.wrapper.style1 .formerize-placeholder {
-				color: #a6e0db !important;
+				color: #A18167 !important;
 			}
 
 			.wrapper.style1 .icon.major {
@@ -3044,7 +3044,7 @@ input, select, textarea {
 
 				.wrapper.style3 select option {
 					color: #ffffff;
-					background: #91A469;
+					background: #DBC2AD;
 				}
 
 			.wrapper.style3 input[type="checkbox"] + label,
@@ -3060,7 +3060,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #91A469;
+				color: #DBC2AD;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3979,9 +3979,9 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgb(196, 209, 165 ), #DBC2AD), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, #DBC2AD, #DBC2AD), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, #DBC2AD, #DBC2AD), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, #DBC2AD, rgb(196, 209, 165)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, #DBC2AD, #DBC2AD), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, #DBC2AD, #DBC2AD), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
